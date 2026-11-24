@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <title>Sphère typographique — Lucas PERNET</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <main id="viewer" aria-label="Visionneuse 3D de la sphère typographique"></main>
+  <div id="loading" role="status">CHARGEMENT DE LA SPHÈRE <span id="progress"></span></div>
+  <div id="help">GLISSER POUR TOURNER <span>·</span> MOLETTE POUR ZOOMER</div>
+  <footer>Lucas PERNET - DSAA2 CIA</footer>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
